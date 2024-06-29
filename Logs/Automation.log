@@ -1,357 +1,200 @@
-16:14:08.821 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the btnYes
-16:14:09.443 [main] INFO  com.jkl.pageObject.PO_HomePage - !!! LOGOUT FAILEED !!!
-16:19:09.899 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:19:09.939 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:19:09.940 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:19:12.294 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:19:12.948 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:19:13.022 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Maximize the window
-16:19:13.190 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-16:19:13.190 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-16:19:15.356 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuDashboard
-16:19:17.473 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuCustomer
-16:19:21.510 [main] INFO  com.jkl.testCases.TC_AssumeRole - driver handle: main
-16:19:22.062 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Groups
-16:19:24.110 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findCustomerFromRowListAndClickOnThreeDot
-16:19:24.111 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-16:19:24.111 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:19:24.672 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Groups
-16:19:24.673 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Groups
-16:19:24.673 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-16:19:24.712 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Tata Groups
-16:19:24.757 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-16:19:24.958 [main] INFO  com.jkl.pageObject.PO_CustomersPage - listRowCount: 1
-16:19:25.012 [main] INFO  com.jkl.actions.Action_Archive - Is Restore button displayed and enabled: true
-16:19:25.013 [main] INFO  com.jkl.actions.Action_Archive - btnView_address:- (//*[normalize-space(text())='View'])[1]
-16:19:25.013 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-16:19:25.496 [main] INFO  com.jkl.actions.Action_Archive - Clicked on Restore action button present under three dot
-16:19:27.957 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Steel 4
-16:19:29.979 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findTenantFromRowListAndClickOnThreeDot
-16:19:29.980 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: false
-16:19:29.981 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:19:30.550 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Steel 4
-16:19:30.551 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Steel 4
-16:19:30.552 [main] INFO  com.jkl.pageObject.PO_TenantsPage - listRowCount: 1
-16:19:30.558 [main] INFO  com.jkl.actions.Action_Archive - clickOnSelectedColumnElementBasedOnGivenRowCount called and caller method name: assumeRoleAsTenant
-16:19:30.561 [main] INFO  com.jkl.actions.Action_Archive - columnElementAddress that you want to clck: (//div[contains(@class,'flex flex-col gap-2 items-center')])[1]//div[5]
-16:19:30.951 [main] INFO  com.jkl.actions.Action_Archive - Click on the given row and column matched element: Rowcount: 1 ColumnCount: 5
-16:19:31.996 [main] INFO  com.jkl.pageObject.PO_TenantsPage - Role Assumed for: Tata Steel 4
-16:19:34.021 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Role Assumed Successfully...
-16:19:34.027 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Method called: checkDashboardCount
-16:19:35.051 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - loggedUser: Sanjiv Koiri
-16:19:35.073 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalCategoryCount: 0
-16:19:35.094 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAssetCount: 0
-16:19:35.114 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAvailableAsset: 0
-16:19:35.133 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalUsedAsset: 0
-16:19:38.062 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-16:19:42.196 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-16:19:44.305 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-16:19:46.437 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the btnYes
-16:19:47.000 [main] INFO  com.jkl.pageObject.PO_HomePage - !!! LOGOUT FAILEED !!!
-16:25:28.057 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:25:28.097 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:25:28.098 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:25:30.457 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:25:31.092 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:25:31.122 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Maximize the window
-16:25:31.233 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-16:25:31.233 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-16:25:33.385 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuDashboard
-16:25:35.477 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuCustomer
-16:25:39.517 [main] INFO  com.jkl.testCases.TC_AssumeRole - driver handle: main
-16:25:39.941 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Groups
-16:25:41.991 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findCustomerFromRowListAndClickOnThreeDot
-16:25:41.993 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-16:25:41.994 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:25:42.610 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Groups
-16:25:42.611 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Groups
-16:25:42.612 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-16:25:42.688 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Tata Groups
-16:25:42.731 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-16:25:42.940 [main] INFO  com.jkl.pageObject.PO_CustomersPage - listRowCount: 1
-16:25:43.061 [main] INFO  com.jkl.actions.Action_Archive - Is Restore button displayed and enabled: true
-16:25:43.062 [main] INFO  com.jkl.actions.Action_Archive - btnView_address:- (//*[normalize-space(text())='View'])[1]
-16:25:43.062 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-16:25:43.552 [main] INFO  com.jkl.actions.Action_Archive - Clicked on Restore action button present under three dot
-16:25:45.984 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Steel 4
-16:25:48.019 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findTenantFromRowListAndClickOnThreeDot
-16:25:48.020 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: false
-16:25:48.021 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:25:48.598 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Steel 4
-16:25:48.599 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Steel 4
-16:25:48.601 [main] INFO  com.jkl.pageObject.PO_TenantsPage - listRowCount: 1
-16:25:48.609 [main] INFO  com.jkl.actions.Action_Archive - clickOnSelectedColumnElementBasedOnGivenRowCount called and caller method name: assumeRoleAsTenant
-16:25:48.613 [main] INFO  com.jkl.actions.Action_Archive - columnElementAddress that you want to clck: (//div[contains(@class,'flex flex-col gap-2 items-center')])[1]//div[5]
-16:25:49.016 [main] INFO  com.jkl.actions.Action_Archive - Click on the given row and column matched element: Rowcount: 1 ColumnCount: 5
-16:25:50.103 [main] INFO  com.jkl.pageObject.PO_TenantsPage - Role Assumed for: Tata Steel 4
-16:25:52.124 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Role Assumed Successfully...
-16:25:57.745 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-16:26:01.829 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-16:26:03.903 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-16:26:03.940 [main] INFO  com.jkl.pageObject.PO_HomePage - Logout Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//button//div[text()='Yes']"}
-  (Session info: chrome=125.0.6422.142)
+17:52:47.674 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='4:5'])[1]"}
+  (Session info: chrome=126.0.6478.114)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dce3e79bbf5b32afbbcd0bdf8756d6f3, findElement {using=xpath, value=//button//div[text()='Yes']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dce3e79bbf5b32afbbcd0bdf8756d6f3
-16:27:25.046 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:27:25.083 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:27:25.084 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:27:27.073 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:27:27.307 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:27:52.286 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:27:52.325 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:27:52.326 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:27:54.420 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:27:54.647 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:27:54.677 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Maximize the window
-16:27:54.762 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-16:27:54.763 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-16:27:56.889 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuDashboard
-16:27:58.951 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuCustomer
-16:28:02.980 [main] INFO  com.jkl.testCases.TC_AssumeRole - driver handle: main
-16:28:03.373 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Groups
-16:28:05.409 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findCustomerFromRowListAndClickOnThreeDot
-16:28:05.409 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-16:28:05.410 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:28:05.990 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Groups
-16:28:05.990 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Groups
-16:28:05.991 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-16:28:06.041 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Tata Groups
-16:28:06.080 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-16:28:06.289 [main] INFO  com.jkl.pageObject.PO_CustomersPage - listRowCount: 1
-16:28:06.342 [main] INFO  com.jkl.actions.Action_Archive - Is Restore button displayed and enabled: true
-16:28:06.342 [main] INFO  com.jkl.actions.Action_Archive - btnView_address:- (//*[normalize-space(text())='View'])[1]
-16:28:06.343 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-16:28:06.811 [main] INFO  com.jkl.actions.Action_Archive - Clicked on Restore action button present under three dot
-16:28:09.393 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Steel 4
-16:28:11.429 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findTenantFromRowListAndClickOnThreeDot
-16:28:11.430 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: false
-16:28:11.432 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:28:12.005 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Steel 4
-16:28:12.005 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Steel 4
-16:28:12.006 [main] INFO  com.jkl.pageObject.PO_TenantsPage - listRowCount: 1
-16:28:12.012 [main] INFO  com.jkl.actions.Action_Archive - clickOnSelectedColumnElementBasedOnGivenRowCount called and caller method name: assumeRoleAsTenant
-16:28:12.015 [main] INFO  com.jkl.actions.Action_Archive - columnElementAddress that you want to clck: (//div[contains(@class,'flex flex-col gap-2 items-center')])[1]//div[5]
-16:28:12.443 [main] INFO  com.jkl.actions.Action_Archive - Click on the given row and column matched element: Rowcount: 1 ColumnCount: 5
-16:28:13.509 [main] INFO  com.jkl.pageObject.PO_TenantsPage - Role Assumed for: Tata Steel 4
-16:28:15.522 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Role Assumed Successfully...
-16:28:15.538 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Method called: checkDashboardCount
-16:28:16.608 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - loggedUser: Sanjiv Koiri
-16:28:16.633 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalCategoryCount: 0
-16:28:16.652 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAssetCount: 0
-16:28:16.670 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAvailableAsset: 0
-16:28:16.691 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalUsedAsset: 0
-16:28:18.771 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssets
-16:28:20.898 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-16:28:22.984 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuReports
-16:28:25.084 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetConfigurations
-16:28:27.185 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuVendors
-16:28:29.280 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuInvoices
-16:28:31.370 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuUsers
-16:28:33.416 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuServices
-16:28:33.784 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-16:28:37.917 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-16:28:40.040 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-16:28:40.089 [main] INFO  com.jkl.pageObject.PO_HomePage - Logout Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//button//div[text()='Yes']"}
-  (Session info: chrome=125.0.6422.142)
+Command: [d22bc088be025fe7bef39ceffeb521fa, findElement {using=xpath, value=(//span[normalize-space()='4:5'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d22bc088be025fe7bef39ceffeb521fa
+17:52:48.748 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@role='button'])[.='Next']"}
+  (Session info: chrome=126.0.6478.114)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f6086ea25daad0a390b473f7f60d87ef, findElement {using=xpath, value=//button//div[text()='Yes']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f6086ea25daad0a390b473f7f60d87ef
-16:32:01.787 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:32:01.825 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:32:01.826 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:32:04.019 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:32:04.644 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:32:04.659 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Maximize the window
-16:32:04.761 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-16:32:04.762 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-16:32:06.915 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuDashboard
-16:32:09.045 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuCustomer
-16:32:13.059 [main] INFO  com.jkl.testCases.TC_AssumeRole - driver handle: main
-16:32:19.712 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-16:32:23.811 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-16:32:23.922 [main] INFO  com.jkl.pageObject.PO_HomePage - Logout Exception: element not interactable
-  (Session info: chrome=125.0.6422.142)
+Command: [d22bc088be025fe7bef39ceffeb521fa, findElement {using=xpath, value=(//div[@role='button'])[.='Next']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d22bc088be025fe7bef39ceffeb521fa
+17:52:48.772 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@role='button'])[.='Next']"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [757e43a13c5d402912892f4e1b8ade0b, clickElement {id=f.1AEFBAEDBA4AEA1FFCE73380A94F1220.d.839D6DF35C034542C2CEAAA49BC07630.e.16306}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on any (757e43a13c5d402912892f4e1b8ade0b)] -> xpath: //li[contains(@role,'menuitem')]//div[contains(text(),'Logout')]]
-Session ID: 757e43a13c5d402912892f4e1b8ade0b
-16:32:35.725 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:32:35.780 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:32:35.780 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:32:37.959 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:32:38.056 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:33:01.193 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:33:01.238 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:33:01.239 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:33:03.415 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:33:03.783 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:33:03.800 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Maximize the window
-16:33:03.915 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-16:33:03.916 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-16:33:06.062 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuDashboard
-16:33:08.164 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuCustomer
-16:33:12.209 [main] INFO  com.jkl.testCases.TC_AssumeRole - driver handle: main
-16:33:12.614 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Groups
-16:33:14.664 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findCustomerFromRowListAndClickOnThreeDot
-16:33:14.667 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-16:33:14.668 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:33:15.272 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Groups
-16:33:15.273 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Groups
-16:33:15.274 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-16:33:15.330 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Tata Groups
-16:33:15.368 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-16:33:15.580 [main] INFO  com.jkl.pageObject.PO_CustomersPage - listRowCount: 1
-16:33:15.631 [main] INFO  com.jkl.actions.Action_Archive - Is Restore button displayed and enabled: true
-16:33:15.631 [main] INFO  com.jkl.actions.Action_Archive - btnView_address:- (//*[normalize-space(text())='View'])[1]
-16:33:15.632 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-16:33:16.119 [main] INFO  com.jkl.actions.Action_Archive - Clicked on Restore action button present under three dot
-16:33:18.562 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Steel 4
-16:33:20.587 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findTenantFromRowListAndClickOnThreeDot
-16:33:20.588 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: false
-16:33:20.589 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:33:21.165 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Steel 4
-16:33:21.165 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Steel 4
-16:33:21.166 [main] INFO  com.jkl.pageObject.PO_TenantsPage - listRowCount: 1
-16:33:21.172 [main] INFO  com.jkl.actions.Action_Archive - clickOnSelectedColumnElementBasedOnGivenRowCount called and caller method name: assumeRoleAsTenant
-16:33:21.177 [main] INFO  com.jkl.actions.Action_Archive - columnElementAddress that you want to clck: (//div[contains(@class,'flex flex-col gap-2 items-center')])[1]//div[5]
-16:33:21.609 [main] INFO  com.jkl.actions.Action_Archive - Click on the given row and column matched element: Rowcount: 1 ColumnCount: 5
-16:33:22.670 [main] INFO  com.jkl.pageObject.PO_TenantsPage - Role Assumed for: Tata Steel 4
-16:33:24.684 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Role Assumed Successfully...
-16:33:24.690 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Method called: checkDashboardCount
-16:33:25.758 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - loggedUser: Sanjiv Koiri
-16:33:25.789 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalCategoryCount: 0
-16:33:25.809 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAssetCount: 0
-16:33:25.830 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAvailableAsset: 0
-16:33:25.852 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalUsedAsset: 0
-16:33:27.936 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssets
-16:33:30.044 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-16:33:32.154 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuReports
-16:33:34.241 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetConfigurations
-16:33:36.323 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuVendors
-16:33:38.432 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuInvoices
-16:33:40.500 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuUsers
-16:33:42.568 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuServices
-16:33:44.690 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuSettings
-16:33:46.811 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuLocations
-16:33:48.904 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuDepartments
-16:33:48.924 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-16:33:53.063 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-16:33:55.181 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-16:33:57.328 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the btnYes
-16:33:57.918 [main] INFO  com.jkl.pageObject.PO_HomePage - ... LOGOUT DONE ...
-16:33:57.983 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Driver shutdown
-16:35:24.258 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:35:24.295 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:35:24.296 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:35:26.572 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:35:26.921 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:35:26.944 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Maximize the window
-16:35:27.042 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-16:35:27.042 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-16:35:29.176 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuDashboard
-16:35:31.307 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuCustomer
-16:35:35.332 [main] INFO  com.jkl.testCases.TC_AssumeRole - driver handle: main
-16:35:35.757 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Groups
-16:35:37.790 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findCustomerFromRowListAndClickOnThreeDot
-16:35:37.791 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-16:35:37.792 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:35:38.400 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Groups
-16:35:38.401 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Groups
-16:35:38.403 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-16:35:38.459 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Tata Groups
-16:35:38.523 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-16:35:38.727 [main] INFO  com.jkl.pageObject.PO_CustomersPage - listRowCount: 1
-16:35:38.781 [main] INFO  com.jkl.actions.Action_Archive - Is Restore button displayed and enabled: true
-16:35:38.781 [main] INFO  com.jkl.actions.Action_Archive - btnView_address:- (//*[normalize-space(text())='View'])[1]
-16:35:38.782 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-16:35:39.280 [main] INFO  com.jkl.actions.Action_Archive - Clicked on Restore action button present under three dot
-16:35:41.736 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Steel 4
-16:35:43.761 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findTenantFromRowListAndClickOnThreeDot
-16:35:43.762 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: false
-16:35:43.763 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:35:44.326 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Steel 4
-16:35:44.326 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Steel 4
-16:35:44.327 [main] INFO  com.jkl.pageObject.PO_TenantsPage - listRowCount: 1
-16:35:44.333 [main] INFO  com.jkl.actions.Action_Archive - clickOnSelectedColumnElementBasedOnGivenRowCount called and caller method name: assumeRoleAsTenant
-16:35:44.336 [main] INFO  com.jkl.actions.Action_Archive - columnElementAddress that you want to clck: (//div[contains(@class,'flex flex-col gap-2 items-center')])[1]//div[5]
-16:35:44.779 [main] INFO  com.jkl.actions.Action_Archive - Click on the given row and column matched element: Rowcount: 1 ColumnCount: 5
-16:35:45.851 [main] INFO  com.jkl.pageObject.PO_TenantsPage - Role Assumed for: Tata Steel 4
-16:35:47.864 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Role Assumed Successfully...
-16:35:53.481 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-16:35:57.543 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-16:35:59.633 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-16:36:01.722 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the btnYes
-16:36:02.260 [main] INFO  com.jkl.pageObject.PO_HomePage - ... LOGOUT DONE ...
-16:36:02.325 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Driver shutdown
-16:37:09.466 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Base class started...
-16:37:09.506 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-16:37:09.507 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-16:37:11.789 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Chrome driver selected
-16:37:12.059 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login page started
-16:37:12.077 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Maximize the window
-16:37:12.206 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-16:37:12.206 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-16:37:14.333 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuDashboard
-16:37:16.389 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the menuCustomer
-16:37:20.427 [main] INFO  com.jkl.testCases.TC_AssumeRole - driver handle: main
-16:37:20.859 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Groups
-16:37:22.889 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findCustomerFromRowListAndClickOnThreeDot
-16:37:22.889 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-16:37:22.890 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:37:23.433 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Groups
-16:37:23.434 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Groups
-16:37:23.434 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-16:37:23.472 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Tata Groups
-16:37:23.514 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-16:37:23.727 [main] INFO  com.jkl.pageObject.PO_CustomersPage - listRowCount: 1
-16:37:23.813 [main] INFO  com.jkl.actions.Action_Archive - Is Restore button displayed and enabled: true
-16:37:23.814 [main] INFO  com.jkl.actions.Action_Archive - btnView_address:- (//*[normalize-space(text())='View'])[1]
-16:37:23.814 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-16:37:24.290 [main] INFO  com.jkl.actions.Action_Archive - Clicked on Restore action button present under three dot
-16:37:26.780 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Tata Steel 4
-16:37:28.814 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findTenantFromRowListAndClickOnThreeDot
-16:37:28.816 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: false
-16:37:28.816 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-16:37:29.372 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Tata Steel 4
-16:37:29.372 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Tata Steel 4
-16:37:29.372 [main] INFO  com.jkl.pageObject.PO_TenantsPage - listRowCount: 1
-16:37:29.378 [main] INFO  com.jkl.actions.Action_Archive - clickOnSelectedColumnElementBasedOnGivenRowCount called and caller method name: assumeRoleAsTenant
-16:37:29.381 [main] INFO  com.jkl.actions.Action_Archive - columnElementAddress that you want to clck: (//div[contains(@class,'flex flex-col gap-2 items-center')])[1]//div[5]
-16:37:29.823 [main] INFO  com.jkl.actions.Action_Archive - Click on the given row and column matched element: Rowcount: 1 ColumnCount: 5
-16:37:30.889 [main] INFO  com.jkl.pageObject.PO_TenantsPage - Role Assumed for: Tata Steel 4
-16:37:32.915 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Role Assumed Successfully...
-16:37:32.923 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Method called: checkDashboardCount
-16:37:33.970 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - loggedUser: Sanjiv Koiri
-16:37:34.011 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalCategoryCount: 0
-16:37:34.038 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAssetCount: 0
-16:37:34.062 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalAvailableAsset: 0
-16:37:34.083 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - totalUsedAsset: 0
-16:37:36.162 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssets
-16:37:38.302 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-16:37:40.428 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuReports
-16:37:42.544 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetConfigurations
-16:37:44.628 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuVendors
-16:37:46.719 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuInvoices
-16:37:48.827 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuUsers
-16:37:50.875 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuServices
-16:37:52.972 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuSettings
-16:37:55.098 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuLocations
-16:37:57.213 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuDepartments
-16:37:57.231 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-16:38:01.379 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-16:38:03.521 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-16:38:05.605 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the btnYes
-16:38:06.189 [main] INFO  com.jkl.pageObject.PO_HomePage - ... LOGOUT DONE ...
-16:38:06.257 [main] INFO  com.jkl.testCases.TC_Inner_Dashboard - Driver shutdown
+Command: [d22bc088be025fe7bef39ceffeb521fa, findElement {using=xpath, value=(//div[@role='button'])[.='Next']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d22bc088be025fe7bef39ceffeb521fa
+17:52:48.804 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role='textbox']//p"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d22bc088be025fe7bef39ceffeb521fa, findElement {using=xpath, value=//div[@role='textbox']//p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d22bc088be025fe7bef39ceffeb521fa
+17:52:48.836 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@role='button'])[.='Share']"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d22bc088be025fe7bef39ceffeb521fa, findElement {using=xpath, value=(//div[@role='button'])[.='Share']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d22bc088be025fe7bef39ceffeb521fa
+17:52:48.877 [main] INFO  com.instagram.pageObject.PO_HomePage - Method called: Logout
+17:52:51.995 [main] INFO  com.instagram.pageObject.PO_HomePage - null
+17:52:53.170 [main] INFO  com.instagram.pageObject.PO_HomePage - null
+17:52:53.215 [main] INFO  com.instagram.pageObject.PO_HomePage - null
+17:52:54.259 [main] INFO  com.instagram.pageObject.PO_HomePage - ❎❎❎ LOGOUT FAILEED !!!
+18:02:22.557 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+18:02:22.607 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:02:22.609 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:02:29.245 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+18:02:30.307 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started
+18:02:30.454 [main] INFO  com.instagram.testCases.TC_CreatePost - Maximize the window
+18:02:30.485 [main] INFO  com.instagram.testCases.TC_CreatePost - loginUserType: user And isDebuggerMode: false
+18:02:30.612 [main] INFO  com.instagram.testCases.TC_CreatePost - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+18:02:30.612 [main] INFO  com.instagram.pageObject.PO_LoginPage - Method called Login: Login
+18:02:31.295 [main] INFO  com.instagram.pageObject.PO_LoginPage - Enteterd email
+18:02:32.239 [main] INFO  com.instagram.pageObject.PO_LoginPage - Entered password
+18:02:32.673 [main] INFO  com.instagram.pageObject.PO_LoginPage - clicke on login submit button
+18:02:36.415 [main] INFO  com.instagram.pageObject.PO_LoginPage - 1
+18:02:36.491 [main] INFO  com.instagram.pageObject.PO_LoginPage - isLoginDone: true
+18:02:36.498 [main] INFO  com.instagram.pageObject.PO_LoginPage - ✅✅✅ Login DONE ...
+18:02:38.903 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+18:02:44.254 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabCreate
+18:02:48.274 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called createNewPost and  Caller methods name: test_GenerateImage
+18:02:48.489 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnSelectFromComputer
+18:02:50.498 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called uploadFileFromSystem and Caller methods name: createNewPost
+18:02:54.344 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@aria-label='Select crop'])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6171b2436b08851b61af88cac7018160, findElement {using=xpath, value=(//*[name()='svg'][@aria-label='Select crop'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6171b2436b08851b61af88cac7018160
+18:02:54.513 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='4:5'])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6171b2436b08851b61af88cac7018160, findElement {using=xpath, value=(//span[normalize-space()='4:5'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6171b2436b08851b61af88cac7018160
+18:02:55.660 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+18:02:57.949 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+18:03:02.403 [main] INFO  com.instagram.pageObject.PO_CreatePage - Entered yourPrompt
+18:03:02.640 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnShare
+18:03:09.458 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on Cross button
+18:03:11.550 [main] INFO  com.instagram.pageObject.PO_HomePage - Method called: Logout
+18:03:15.966 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+18:03:18.569 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabMore
+18:03:20.832 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the logout
+18:03:23.410 [main] INFO  com.instagram.pageObject.PO_HomePage - ✅✅✅ LOGOUT DONE ...
+18:03:23.504 [main] INFO  com.instagram.testCases.TC_CreatePost - Driver shutdown
+18:08:12.828 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+18:08:12.876 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:08:12.877 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:08:16.367 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+18:08:17.379 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started
+18:08:17.611 [main] INFO  com.instagram.testCases.TC_CreatePost - Maximize the window
+18:08:17.692 [main] INFO  com.instagram.testCases.TC_CreatePost - loginUserType: user And isDebuggerMode: false
+18:08:17.857 [main] INFO  com.instagram.testCases.TC_CreatePost - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+18:08:17.857 [main] INFO  com.instagram.pageObject.PO_LoginPage - Method called Login: Login
+18:08:18.643 [main] INFO  com.instagram.pageObject.PO_LoginPage - Enteterd email
+18:08:19.415 [main] INFO  com.instagram.pageObject.PO_LoginPage - Entered password
+18:08:19.776 [main] INFO  com.instagram.pageObject.PO_LoginPage - clicke on login submit button
+18:08:23.493 [main] INFO  com.instagram.pageObject.PO_LoginPage - 1
+18:08:23.576 [main] INFO  com.instagram.pageObject.PO_LoginPage - isLoginDone: true
+18:08:23.584 [main] INFO  com.instagram.pageObject.PO_LoginPage - ✅✅✅ Login DONE ...
+18:08:25.984 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+18:08:30.194 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabCreate
+18:08:34.223 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called createNewPost and  Caller methods name: test_GenerateImage
+18:08:34.401 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnSelectFromComputer
+18:08:36.417 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called uploadFileFromSystem and Caller methods name: createNewPost
+18:08:36.702 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@aria-label='Select crop'])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd5b28c5930fae3eddc493c26f69bbab, findElement {using=xpath, value=(//*[name()='svg'][@aria-label='Select crop'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd5b28c5930fae3eddc493c26f69bbab
+18:08:36.839 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='4:5'])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd5b28c5930fae3eddc493c26f69bbab, findElement {using=xpath, value=(//span[normalize-space()='4:5'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd5b28c5930fae3eddc493c26f69bbab
+18:08:38.038 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+18:08:40.191 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+18:08:44.640 [main] INFO  com.instagram.pageObject.PO_CreatePage - Entered yourPrompt
+18:08:44.894 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnShare
+18:08:51.772 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on Cross button
+18:08:53.860 [main] INFO  com.instagram.pageObject.PO_HomePage - Method called: Logout
+18:08:58.144 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+18:09:00.326 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabMore
+18:09:02.595 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the logout
+18:09:04.488 [main] INFO  com.instagram.pageObject.PO_HomePage - ✅✅✅ LOGOUT DONE ...
+18:09:04.573 [main] INFO  com.instagram.testCases.TC_CreatePost - Driver shutdown
+21:12:07.789 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+21:12:07.832 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+21:12:07.833 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+21:15:33.512 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+21:15:33.542 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+21:15:33.543 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+21:15:53.256 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+21:16:06.238 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started
+21:16:06.255 [main] INFO  com.instagram.testCases.TC_CreatePost - Maximize the window
+21:16:06.286 [main] INFO  com.instagram.testCases.TC_CreatePost - loginUserType: user And isDebuggerMode: false
+21:16:06.366 [main] INFO  com.instagram.testCases.TC_CreatePost - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+21:16:06.366 [main] INFO  com.instagram.pageObject.PO_LoginPage - Method called Login: Login
+21:16:07.621 [main] INFO  com.instagram.pageObject.PO_LoginPage - Enteterd email
+21:16:08.273 [main] INFO  com.instagram.pageObject.PO_LoginPage - Entered password
+21:16:08.586 [main] INFO  com.instagram.pageObject.PO_LoginPage - clicke on login submit button
+21:16:16.306 [main] INFO  com.instagram.pageObject.PO_LoginPage - 1
+21:16:16.430 [main] INFO  com.instagram.pageObject.PO_LoginPage - isLoginDone: true
+21:16:16.435 [main] INFO  com.instagram.pageObject.PO_LoginPage - ✅✅✅ Login DONE ...
+21:16:18.743 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+21:16:23.748 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabCreate
+21:16:27.760 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called createNewPost and  Caller methods name: test_GenerateImage
+21:16:27.856 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnSelectFromComputer
+21:16:29.868 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called uploadFileFromSystem and Caller methods name: createNewPost
+21:16:34.202 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@aria-label='Select crop'])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0bac9e806ea621cb062b454922926e9, findElement {using=xpath, value=(//*[name()='svg'][@aria-label='Select crop'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0bac9e806ea621cb062b454922926e9
+21:16:34.231 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='4:5'])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0bac9e806ea621cb062b454922926e9, findElement {using=xpath, value=(//span[normalize-space()='4:5'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.63 (df799988fdc9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0bac9e806ea621cb062b454922926e9
+21:16:35.405 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+21:16:37.502 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+21:16:41.884 [main] INFO  com.instagram.pageObject.PO_CreatePage - Entered yourPrompt
+21:16:42.000 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnShare
+21:16:49.511 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on Cross button
+21:16:51.559 [main] INFO  com.instagram.pageObject.PO_HomePage - Method called: Logout
+21:16:55.851 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+21:16:58.101 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabMore
+21:17:00.340 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the logout
+21:17:02.054 [main] INFO  com.instagram.pageObject.PO_HomePage - ✅✅✅ LOGOUT DONE ...
+21:17:02.178 [main] INFO  com.instagram.testCases.TC_CreatePost - Driver shutdown

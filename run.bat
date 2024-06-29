@@ -1,2 +1,2 @@
-cd G:\My Drive\Eclipse\JKL_AM_WATM
+cd D:\Eclipse Project\WebAutomation\Instagram_WATM
 mvn clean test

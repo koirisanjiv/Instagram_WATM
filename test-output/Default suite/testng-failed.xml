@@ -3,19 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jkl.testCases.TC_Tenants">
+      <class name="com.leonardoAI.testCases.TC_ImageGenerationPage">
         <methods>
           <include name="Setup"/>
-          <include name="test_ActivateTenant"/>
+          <include name="test_RenameDonwloadedFile"/>
           <include name="Logout"/>
-          <include name="Login"/>
-          <include name="test_DeactivateTenant"/>
-          <include name="test_ViewCustomers"/>
-          <include name="test_ArchiveTenant"/>
           <include name="Teardown"/>
-          <include name="test_RestoreTenant"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- com.jkl.testCases.TC_Tenants -->
+      </class> <!-- com.leonardoAI.testCases.TC_ImageGenerationPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

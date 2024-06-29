@@ -2,22 +2,21 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="browser" value="chrome"/>
-  <parameter name="loginUserType" value="user"/>
+  <parameter name="paramtersfromtestNg" value="user,false"/>
   <listeners>
-    <listener class-name="com.jkl.utilities.ExtentReport"/>
+    <listener class-name="com.instagram.utilities.ExtentReport"/>
   </listeners>
-  <test thread-count="1" name="JKL Assets Managemant(failed)">
+  <test thread-count="1" name="Instagram_WATM(failed)">
     <classes>
-      <class name="com.jkl.testCases.TC_Inner_Dashboard">
+      <class name="com.instagram.testCases.TC_CreatePost">
         <methods>
           <include name="Setup"/>
-          <include name="Logout"/>
+          <include name="test_GenerateImage"/>
           <include name="Login"/>
+          <include name="Logout"/>
           <include name="Teardown"/>
-          <include name="test_CheckDashboardCount"/>
-          <include name="test_CheckDashboardMenus"/>
         </methods>
-      </class> <!-- com.jkl.testCases.TC_Inner_Dashboard -->
+      </class> <!-- com.instagram.testCases.TC_CreatePost -->
     </classes>
-  </test> <!-- JKL Assets Managemant(failed) -->
+  </test> <!-- Instagram_WATM(failed) -->
 </suite> <!-- Failed suite [Suite] -->
