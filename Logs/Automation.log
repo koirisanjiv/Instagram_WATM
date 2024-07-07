@@ -198,3 +198,88 @@ Session ID: c0bac9e806ea621cb062b454922926e9
 21:17:00.340 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the logout
 21:17:02.054 [main] INFO  com.instagram.pageObject.PO_HomePage - ✅✅✅ LOGOUT DONE ...
 21:17:02.178 [main] INFO  com.instagram.testCases.TC_CreatePost - Driver shutdown
+19:02:16.656 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+19:02:21.170 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+19:02:35.197 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started
+19:05:25.933 [main] INFO  com.instagram.testCases.TC_CreatePost - Browser and Login-Logout Settings
+19:05:25.941 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToEnableDebuggerMode: true And debugger post: 9222
+19:05:25.942 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToByPassLoginLogout: false
+19:05:25.942 [main] INFO  com.instagram.testCases.TC_CreatePost - incognitoMode: false
+19:05:25.943 [main] INFO  com.instagram.testCases.TC_CreatePost - headerLessBrowsing: false
+19:05:25.945 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToBlockAdsAndNotifications: true
+19:05:25.948 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+19:05:25.977 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:05:25.979 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:05:29.037 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+19:09:09.317 [main] INFO  com.instagram.testCases.TC_CreatePost - Browser and Login-Logout Settings
+19:09:09.328 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToEnableDebuggerMode: true And debugger post: 9222
+19:09:09.329 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToByPassLoginLogout: false
+19:09:09.329 [main] INFO  com.instagram.testCases.TC_CreatePost - incognitoMode: false
+19:09:09.330 [main] INFO  com.instagram.testCases.TC_CreatePost - headerLessBrowsing: false
+19:09:09.331 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToBlockAdsAndNotifications: true
+19:09:09.333 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+19:09:09.364 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:09:09.365 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:09:12.288 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+19:10:31.313 [main] INFO  com.instagram.testCases.TC_CreatePost - Browser and Login-Logout Settings
+19:10:31.327 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToEnableDebuggerMode: true And debugger post: 9222
+19:10:31.327 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToByPassLoginLogout: false
+19:10:31.328 [main] INFO  com.instagram.testCases.TC_CreatePost - incognitoMode: false
+19:10:31.329 [main] INFO  com.instagram.testCases.TC_CreatePost - headerLessBrowsing: false
+19:10:31.329 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToBlockAdsAndNotifications: true
+19:10:31.332 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+19:10:31.368 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:10:31.369 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:10:35.228 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+19:11:15.221 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started with Debugger mode
+19:11:15.232 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started with Debugger mode
+19:11:31.381 [main] INFO  com.instagram.testCases.TC_CreatePost - Browser and Login-Logout Settings
+19:11:31.391 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToEnableDebuggerMode: true And debugger post: 9222
+19:11:31.392 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToByPassLoginLogout: false
+19:11:31.392 [main] INFO  com.instagram.testCases.TC_CreatePost - incognitoMode: false
+19:11:31.392 [main] INFO  com.instagram.testCases.TC_CreatePost - headerLessBrowsing: false
+19:11:31.393 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToBlockAdsAndNotifications: true
+19:11:31.396 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+19:11:31.428 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:11:31.429 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:11:34.532 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+19:11:48.697 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started with Debugger mode
+19:11:48.842 [main] INFO  com.instagram.testCases.TC_CreatePost - Maximize the window
+19:11:48.867 [main] INFO  com.instagram.testCases.TC_CreatePost - loginUserType: user
+19:11:49.020 [main] INFO  com.instagram.testCases.TC_CreatePost - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+19:11:49.021 [main] INFO  com.instagram.pageObject.PO_LoginPage - Method called Login: Login
+19:11:55.037 [main] INFO  com.instagram.pageObject.PO_LoginPage - Enteterd email
+19:11:55.844 [main] INFO  com.instagram.pageObject.PO_LoginPage - Entered password
+19:11:56.257 [main] INFO  com.instagram.pageObject.PO_LoginPage - clicke on login submit button
+19:12:11.689 [main] INFO  com.instagram.pageObject.PO_LoginPage - 1
+19:12:11.730 [main] INFO  com.instagram.pageObject.PO_LoginPage - isLoginDone: true
+19:12:11.775 [main] INFO  com.instagram.pageObject.PO_LoginPage - ✅✅✅ Login DONE ...
+19:12:14.018 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+19:12:18.226 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabCreate
+19:12:22.249 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called createNewPost and  Caller methods name: test_GenerateImage
+19:12:22.384 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnSelectFromComputer
+19:12:24.387 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called uploadFileFromSystem and Caller methods name: createNewPost
+19:12:27.616 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@aria-label='Select crop'])[1]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2496013a06dbfc81bdf88fb1c9e4c2aa, findElement {using=xpath, value=(//*[name()='svg'][@aria-label='Select crop'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2496013a06dbfc81bdf88fb1c9e4c2aa
+19:12:27.702 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='4:5'])[1]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2496013a06dbfc81bdf88fb1c9e4c2aa, findElement {using=xpath, value=(//span[normalize-space()='4:5'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2496013a06dbfc81bdf88fb1c9e4c2aa
+19:12:28.938 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+19:12:31.117 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+19:12:35.712 [main] INFO  com.instagram.pageObject.PO_CreatePage - Entered yourPrompt
+19:12:36.053 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnShare
+19:12:45.182 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on Cross button
+19:12:47.373 [main] INFO  com.instagram.testCases.TC_CreatePost - Driver shutdown

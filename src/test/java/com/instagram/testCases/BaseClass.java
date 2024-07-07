@@ -62,9 +62,11 @@ public class BaseClass {
 	private boolean wantToBlockAdsAndNotifications;
 
 	@BeforeTest
-	public void getDataFromTestNg(ITestContext context) {
+	public void browserSettingAndLogin(ITestContext context) {
 		// TO ENABLE/DISABLE DEBUGGGER MODE
-		String paramEnableDisableDebuggerMode = context.getCurrentXmlTest().getParameter("enableDisableDebuggerMode");
+		logger.info("Browser and Login-Logout Settings");
+	
+		String paramEnableDisableDebuggerMode = context.getCurrentXmlTest().getParameter("enableDebuggerMode");
 		String[] debuggerModeAndPort = paramEnableDisableDebuggerMode.split(",");
 		wantToEnableDebuggerMode = Boolean.parseBoolean(debuggerModeAndPort[0].trim());
 		debuggerPort = Integer.parseInt(debuggerModeAndPort[1].trim());
@@ -88,14 +90,14 @@ public class BaseClass {
 		// TO DISABLE ADS AND NOTIFICATIONS
 		String paramWantToBlockAdsAndNotifications = context.getCurrentXmlTest()
 				.getParameter("wantToBlockAdsAndNotifications");
-		incognitoMode = Boolean.parseBoolean(paramWantToBlockAdsAndNotifications);
+		wantToBlockAdsAndNotifications = Boolean.parseBoolean(paramWantToBlockAdsAndNotifications);
 		logger.info("wantToBlockAdsAndNotifications: " + wantToBlockAdsAndNotifications);
 
 	}
 
 	// to select the driver
 	@Parameters("browser")
-	@BeforeTest
+	@BeforeTest(dependsOnMethods = "browserSettingAndLogin")
 	public void Setup(String br) throws InterruptedException {
 		System.out.println("Current thread name: " + Thread.currentThread().getName());
 
@@ -142,30 +144,59 @@ public class BaseClass {
 
 	}
 
+//	// TO LOGIN
+//	@Parameters("userType")
+//	@BeforeClass()
+//	public void Login(String userType) throws InterruptedException {
+//		if (userType.equalsIgnoreCase("user")) {
+//			lp = new PO_LoginPage(driver);
+//			logger.info("Login user Email: " + userEmail + " and Password: " + userPassword);
+//			hp = lp.Login(userEmail, userPassword);
+//		}
+//
+//	}
+//
+//	// TO LOGOUT
+//	@Parameters("userType")
+//	@AfterTest()
+//	public void Logout(String userType) throws InterruptedException {
+//		try {
+//			if (userType.equalsIgnoreCase("user")) {
+//				hp.UserLogout();
+//			}
+//		} catch (Exception e) {
+//			logger.warn("Exception From: Logout >> " + e.getMessage());
+//		}
+//
+//	}
+
 	// TO LOGIN
 	@Parameters("userType")
 	@BeforeClass()
-	public void Login(String userType) throws InterruptedException {
-		if (userType.equalsIgnoreCase("user")) {
-			lp = new PO_LoginPage(driver);
-			logger.info("Login user Email: " + userEmail + " and Password: " + userPassword);
-			hp = lp.Login(userEmail, userPassword);
+	public void Login(String loginUserType) throws InterruptedException {
+		logger.info("loginUserType: " + loginUserType);
+		if (!wantToByPassLoginLogout) {
+			if (loginUserType.equalsIgnoreCase("user")) {
+				lp = new PO_LoginPage(driver);
+				logger.info("Login user Email: " + userEmail + " and Password: " + userPassword);
+				hp = lp.Login(userEmail, userPassword);
+			}
 		}
-
 	}
 
 	// TO LOGOUT
 	@Parameters("userType")
 	@AfterTest()
-	public void Logout(String userType) throws InterruptedException {
-		try {
-			if (userType.equalsIgnoreCase("user")) {
-				hp.UserLogout();
+	public void Logout(String loginUserType) throws InterruptedException {
+		if (wantToByPassLoginLogout) {
+			if (loginUserType.equalsIgnoreCase("user")) {
+				try {
+					hp.UserLogout();
+				} catch (Exception e) {
+					logger.warn("Exception From: Logout >> " + e.getMessage());
+				}
 			}
-		} catch (Exception e) {
-			logger.warn("Exception From: Logout >> " + e.getMessage());
 		}
-
 	}
 
 	// TO CLOSE THE DIRVER

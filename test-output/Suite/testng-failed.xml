@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="wantToBlockAdsAndNotifications" value="true"/>
   <parameter name="browser" value="chrome"/>
-  <parameter name="paramtersfromtestNg" value="user,false"/>
+  <parameter name="enableDebuggerMode" value="true, 9222"/>
+  <parameter name="incognitoMode" value="false"/>
+  <parameter name="userType" value="user"/>
+  <parameter name="headerLessBrowsing" value="false"/>
+  <parameter name="wantToByPassLoginLogout" value="false"/>
   <listeners>
     <listener class-name="com.instagram.utilities.ExtentReport"/>
   </listeners>
@@ -15,6 +20,7 @@
           <include name="Login"/>
           <include name="Logout"/>
           <include name="Teardown"/>
+          <include name="browserSettingAndLogin"/>
         </methods>
       </class> <!-- com.instagram.testCases.TC_CreatePost -->
     </classes>

@@ -2,12 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-24T21:15:33 IST" name="Suite" finished-at="2024-06-24T21:17:02 IST" duration-ms="88948">
+  <suite started-at="2024-07-07T19:11:31 IST" name="Suite" finished-at="2024-07-07T19:12:47 IST" duration-ms="76287">
     <groups>
     </groups>
-    <test started-at="2024-06-24T21:15:33 IST" name="Instagram_WATM" finished-at="2024-06-24T21:17:02 IST" duration-ms="88948">
+    <test started-at="2024-07-07T19:11:31 IST" name="Instagram_WATM" finished-at="2024-07-07T19:12:47 IST" duration-ms="76287">
       <class name="com.instagram.testCases.TC_CreatePost">
-        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.instagram.testCases.TC_CreatePost@4a3329b9]" started-at="2024-06-24T21:15:33 IST" name="Setup" finished-at="2024-06-24T21:16:06 IST" duration-ms="32763" status="PASS">
+        <test-method is-config="true" signature="browserSettingAndLogin(org.testng.ITestContext)[pri:0, instance:com.instagram.testCases.TC_CreatePost@2b95e48b]" started-at="2024-07-07T19:11:31 IST" name="browserSettingAndLogin" finished-at="2024-07-07T19:11:31 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68ea253b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSettingAndLogin -->
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.instagram.testCases.TC_CreatePost@2b95e48b]" started-at="2024-07-07T19:11:31 IST" name="Setup" finished-at="2024-07-07T19:11:48 IST" depends-on-methods="com.instagram.testCases.BaseClass.browserSettingAndLogin" duration-ms="17447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,40 +29,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="Login(java.lang.String)[pri:0, instance:com.instagram.testCases.TC_CreatePost@4a3329b9]" started-at="2024-06-24T21:16:06 IST" name="Login" finished-at="2024-06-24T21:16:16 IST" duration-ms="10185" status="PASS">
+        <test-method is-config="true" signature="Login(java.lang.String)[pri:0, instance:com.instagram.testCases.TC_CreatePost@2b95e48b]" started-at="2024-07-07T19:11:48 IST" name="Login" finished-at="2024-07-07T19:12:11 IST" duration-ms="22943" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user,false]]>
+                <![CDATA[user]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="test_GenerateImage()[pri:1, instance:com.instagram.testCases.TC_CreatePost@4a3329b9]" started-at="2024-06-24T21:16:16 IST" name="test_GenerateImage" finished-at="2024-06-24T21:16:51 IST" duration-ms="35041" status="PASS">
+        <test-method signature="test_GenerateImage()[pri:1, instance:com.instagram.testCases.TC_CreatePost@2b95e48b]" started-at="2024-07-07T19:12:11 IST" name="test_GenerateImage" finished-at="2024-07-07T19:12:47 IST" duration-ms="35370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_GenerateImage -->
-        <test-method is-config="true" signature="Logout(java.lang.String)[pri:0, instance:com.instagram.testCases.TC_CreatePost@4a3329b9]" started-at="2024-06-24T21:16:51 IST" name="Logout" finished-at="2024-06-24T21:17:02 IST" duration-ms="10505" status="PASS">
+        <test-method is-config="true" signature="Logout(java.lang.String)[pri:0, instance:com.instagram.testCases.TC_CreatePost@2b95e48b]" started-at="2024-07-07T19:12:47 IST" name="Logout" finished-at="2024-07-07T19:12:47 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user,false]]>
+                <![CDATA[user]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="Teardown(java.lang.String)[pri:0, instance:com.instagram.testCases.TC_CreatePost@4a3329b9]" started-at="2024-06-24T21:17:02 IST" name="Teardown" finished-at="2024-06-24T21:17:02 IST" depends-on-methods="com.instagram.testCases.BaseClass.Logout" duration-ms="116" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user,false]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.instagram.testCases.TC_CreatePost@2b95e48b]" started-at="2024-07-07T19:12:47 IST" name="Teardown" finished-at="2024-07-07T19:12:47 IST" depends-on-methods="com.instagram.testCases.BaseClass.Logout" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
