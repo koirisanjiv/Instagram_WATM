@@ -283,3 +283,47 @@ Session ID: 2496013a06dbfc81bdf88fb1c9e4c2aa
 19:12:36.053 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnShare
 19:12:45.182 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on Cross button
 19:12:47.373 [main] INFO  com.instagram.testCases.TC_CreatePost - Driver shutdown
+19:17:47.225 [main] INFO  com.instagram.testCases.TC_CreatePost - Browser and Login-Logout Settings
+19:17:47.234 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToEnableDebuggerMode: true And debugger post: 9222
+19:17:47.234 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToByPassLoginLogout: false
+19:17:47.234 [main] INFO  com.instagram.testCases.TC_CreatePost - incognitoMode: false
+19:17:47.235 [main] INFO  com.instagram.testCases.TC_CreatePost - headerLessBrowsing: false
+19:17:47.236 [main] INFO  com.instagram.testCases.TC_CreatePost - wantToBlockAdsAndNotifications: true
+19:17:47.240 [main] INFO  com.instagram.testCases.TC_CreatePost - Base class started...
+19:17:47.268 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:17:47.269 [main] INFO  com.instagram.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:17:50.528 [main] INFO  com.instagram.testCases.TC_CreatePost - Chrome driver selected
+19:17:57.509 [main] INFO  com.instagram.testCases.TC_CreatePost - Login page started with Debugger mode
+19:17:57.981 [main] INFO  com.instagram.testCases.TC_CreatePost - Maximize the window
+19:17:58.032 [main] INFO  com.instagram.testCases.TC_CreatePost - loginUserType: user
+19:17:58.222 [main] INFO  com.instagram.testCases.TC_CreatePost - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+19:17:58.223 [main] INFO  com.instagram.pageObject.PO_LoginPage - Method called Login: Login
+19:18:30.912 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabHome
+19:18:35.136 [main] INFO  com.instagram.pageObject.PO_HomePage - Clicked on the tabCreate
+19:18:39.169 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called createNewPost and  Caller methods name: test_GenerateImage
+19:18:39.281 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnSelectFromComputer
+19:18:41.298 [main] INFO  com.instagram.pageObject.PO_CreatePage - Method called uploadFileFromSystem and Caller methods name: createNewPost
+19:18:41.763 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@aria-label='Select crop'])[1]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc04a683f130092d39f0ae397b75a27c, findElement {using=xpath, value=(//*[name()='svg'][@aria-label='Select crop'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc04a683f130092d39f0ae397b75a27c
+19:18:41.806 [main] INFO  com.instagram.pageObject.PO_CreatePage - no such element: Unable to locate element: {"method":"xpath","selector":"(//span[normalize-space()='4:5'])[1]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc04a683f130092d39f0ae397b75a27c, findElement {using=xpath, value=(//span[normalize-space()='4:5'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc04a683f130092d39f0ae397b75a27c
+19:18:43.027 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+19:18:45.201 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnNext
+19:18:49.649 [main] INFO  com.instagram.pageObject.PO_CreatePage - Entered yourPrompt
+19:18:49.817 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on btnShare
+19:18:55.554 [main] INFO  com.instagram.pageObject.PO_CreatePage - Click on Cross button
+19:18:57.715 [main] INFO  com.instagram.testCases.TC_CreatePost - Driver shutdown
